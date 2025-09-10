@@ -1,0 +1,36 @@
+# Personal Portfolio Website - Sonakshi Agrawal
+
+## Tools Used
+- HTML5 for structure
+- CSS3 for custom styling
+- Tailwind CSS (via CDN) for modern, responsive design
+- JavaScript for dark mode toggle
+- Media files (images for profile & projects)
+
+## Features Implemented
+- Semantic HTML structure (header, nav, section, footer used consistently)
+- Responsive navigation bar with links to all pages
+- Dark mode toggle (bonus feature)
+- Home page with profile, skills, and introduction
+- Projects page with a responsive table displaying project name, description, year, and images
+- Contact page with a functional form (name, email, message, submit/reset buttons) and validation
+- Embedded media support (profile image, project images; space for audio/video if needed)
+- External CSS for custom effects, plus Tailwind utilities for layout and responsiveness
+- Hover and transition effects for interactive UI
+
+## Folder Structure
+Portfolio/
+│── index.html          (Home Page)
+│── projects.html       (Projects Page with table + images)
+│── contact.html        (Contact Page with form)
+│── style.css           (External custom CSS)
+│── script.js           (Dark mode toggle logic)
+│── README.txt          (Project documentation)
+│
+└── assets/             (Media files used in the project)
+     └── profile.png
+     └── ai-loved-ones.png
+     └── wrapping-kit.jpg
+
+Sonakshi Agrawal  
+B.Tech (CSE with AI Specialization) - 2nd Year

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Sonakshi Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-gradient-to-br from-pink-100 to-purple-200 dark:from-gray-900 dark:to-gray-800 transition-all duration-500 min-h-screen">
+  
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-6 bg-white/70 dark:bg-gray-800/70 backdrop-blur-lg shadow-md sticky top-0 z-50">
+    <h1 class="text-2xl font-bold text-purple-700 dark:text-purple-300">Sonakshi Agrawal</h1>
+    <div class="space-x-6">
+      <a href="index.html" class="font-medium hover:text-purple-600 dark:hover:text-purple-300">Home</a>
+      <a href="project.html" class="font-medium hover:text-purple-600 dark:hover:text-purple-300">Projects</a>
+      <a href="contact.html" class="font-medium hover:text-purple-600 dark:hover:text-purple-300">Contact</a>
+      <button onclick="toggleDarkMode()" class="px-3 py-1 bg-purple-600 text-white rounded-lg hover:bg-purple-700">🌙 Mode</button>
+    </div>
+  </nav>
+
+  <!-- Contact Section -->
+  <section class="contact mt-16 px-6 text-center">
+    <h1 class="text-3xl font-extrabold text-purple-700 dark:text-purple-300">Get in Touch</h1>
+    
+    <form class="mt-8 max-w-md mx-auto bg-white/70 dark:bg-gray-800/70 p-6 rounded-xl shadow-lg space-y-4">
+      <input type="text" placeholder="Your Name" required class="w-full p-2 rounded border focus:outline-none focus:ring-2 focus:ring-purple-400">
+      <input type="email" placeholder="Your Email" required class="w-full p-2 rounded border focus:outline-none focus:ring-2 focus:ring-purple-400">
+      <textarea placeholder="Your Message" rows="4" required class="w-full p-2 rounded border focus:outline-none focus:ring-2 focus:ring-purple-400"></textarea>
+      <div class="space-x-4">
+        <button type="submit" class="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700">Submit</button>
+        <button type="reset" class="px-4 py-2 bg-gray-400 text-white rounded hover:bg-gray-500">Reset</button>
+      </div>
+    </form>
+
+  
+
+  <!-- Footer -->
+  <footer class="mt-16 py-6 text-center text-gray-700 dark:text-gray-400 bg-white/60 dark:bg-gray-800/60 backdrop-blur-lg">
+    © 2025 Sonakshi Agrawal | Made with ❤️
+  </footer>
+</body>
+</html>

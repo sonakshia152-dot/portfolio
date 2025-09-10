@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Sonakshi Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="script.js" defer></script>
+</head>
+<body class="bg-gradient-to-br from-pink-100 to-purple-200 dark:from-gray-900 dark:to-gray-800 transition-all duration-500 min-h-screen">
+  
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-6 bg-white/70 dark:bg-gray-800/70 backdrop-blur-lg shadow-md sticky top-0 z-50">
+    <h1 class="text-2xl font-bold text-purple-700 dark:text-purple-300">Sonakshi Agrawal</h1>
+    <div class="space-x-6">
+      <a href="index.html" class="font-medium hover:text-purple-600 dark:hover:text-purple-300">Home</a>
+      <a href="project.html" class="font-medium hover:text-purple-600 dark:hover:text-purple-300">Projects</a>
+      <a href="contact.html" class="font-medium hover:text-purple-600 dark:hover:text-purple-300">Contact</a>
+      <button onclick="toggleDarkMode()" class="px-3 py-1 bg-purple-600 text-white rounded-lg hover:bg-purple-700">🌙 Mode</button>
+    </div>
+  </nav>
+
+  <!-- Projects Section -->
+<section class="projects mt-16 px-6">
+  <h1 class="text-3xl font-extrabold text-center text-purple-700 dark:text-purple-300">My Projects</h1>
+
+  <div class="overflow-x-auto mt-8">
+    <table class="table-auto border-collapse border border-purple-400 w-full max-w-5xl mx-auto">
+      <tr class="bg-purple-200 dark:bg-gray-700">
+        <th class="border border-purple-400 px-4 py-2">Image</th>
+        <th class="border border-purple-400 px-4 py-2">Name</th>
+        <th class="border border-purple-400 px-4 py-2">Description</th>
+        <th class="border border-purple-400 px-4 py-2">Year</th>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2">
+        </td>
+        <td class="border px-4 py-2">Leaf Thresher Robot</td>
+        <td class="border px-4 py-2">Efficient robot for leaf collection & cleaning.</td>
+        <td class="border px-4 py-2">2024</td>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2">
+          <img src="assets/ai loved ones.png" alt="AI Loved Ones" class="w-32 h-20 object-cover rounded-lg shadow-md">
+        </td>
+        <td class="border px-4 py-2">AI Loved Ones</td>
+        <td class="border px-4 py-2">App concept to reconnect with loved ones using AI.</td>
+        <td class="border px-4 py-2">2025</td>
+      </tr>
+      <tr>
+        <td class="border px-4 py-2">
+          <img src="assets/wrapping kit.png" alt="Wrapping Kit" class="w-32 h-20 object-cover rounded-lg shadow-md">
+        </td>
+        <td class="border px-4 py-2">Wrapping Kit</td>
+        <td class="border px-4 py-2">Smart packaging project (1st year).</td>
+        <td class="border px-4 py-2">2023</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="mt-16 py-6 text-center text-gray-700 dark:text-gray-400 bg-white/60 dark:bg-gray-800/60 backdrop-blur-lg">
+    © 2025 Sonakshi Agrawal | Made with ❤️
+  </footer>
+</body>
+</html>
